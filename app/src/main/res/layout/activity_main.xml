@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bgs">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+      <TextView
+          android:id="@+id/Judul"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Pilih Konversi :"
+          />
+      <Spinner
+          android:id="@+id/spinner"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:entries="@array/Pilihan"
+          />
+      <EditText
+          android:id="@+id/eText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      <Button
+          android:id="@+id/btnKonversi"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Konversi"
+          android:onClick="btnKonversi"/>
+      <TextView
+          android:id="@+id/tvHasil"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="0"
+          android:textAlignment="center"
+          android:textStyle="bold"
+          android:textSize="30dp"
+          android:background="#fff"/>
+
+  </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Versi 1.4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tugas Akhir Pemrograman Perangkat Bergerak"/>
+    </LinearLayout>
+
+</RelativeLayout>

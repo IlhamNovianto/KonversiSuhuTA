@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KonversiSuhu.TA</string>
+    <string name="Pilih">Pilih Satuan</string>
+    <string name="Suhu">suhu</string>
+
+    <string-array name="Pilihan">
+        <item>Celcius To Fahrenheit</item>
+        <item>Celcius To Kelvin</item>
+        <item>Celcius To Reamur</item>
+        <item>Reamur To Celcius</item>
+        <item>Reamur To Kelvin</item>
+        <item>Reamur To Fahrenhait</item>
+        <item>Kelvin To Celcius</item>
+        <item>Kelvin To Reamur</item>
+        <item>Kelvin To Fahrenhait</item>
+        <item>Fahrenhait To Celcius</item>
+        <item>Fahrenhait To Kelvin</item>
+        <item>Fahrenhait To Reamur</item>
+    </string-array>
+</resources>
